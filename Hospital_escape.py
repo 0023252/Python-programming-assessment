@@ -11,7 +11,7 @@ pygame.init()
 
 
 #Map sprites
-First_floor = pygame.image.load("Hospital_escape_map.png")
+First_floor = pygame.image.load("First_floor.png")
 
 
 
