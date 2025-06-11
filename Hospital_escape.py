@@ -11,7 +11,8 @@ pygame.init()
 
 
 #Map sprites
-First_floor = pygame.image.load("First_floor.png")
+Third_floor = pygame.image.load("Third_floor.png")
+Second_Floor = pygame.image.load("2nd_Floor.png")
 
 
 
@@ -33,7 +34,7 @@ while run:
             run = False 
     
     #test/try
-    screen.blit(First_floor,(0,0))
+    screen.blit(Third_floor,(0,0))
    
           
 
