@@ -1,12 +1,17 @@
 import pygame
 import sys
 from game_settings import *
+from game_settings import Animation
 
 
-#screen size
+#specifications
 screen = pygame.display.set_mode((700, 500))
 clock = pygame.time.Clock()
 pygame.init()
+
+
+#Character items
+player = Animation()
 
 
 
@@ -48,9 +53,8 @@ while run:
     
     
     
-    pygame.display.update() 
-
-
+    pygame.display.update()
+    clock.tick(60) 
 
 
 
