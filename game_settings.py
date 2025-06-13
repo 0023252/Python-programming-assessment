@@ -13,4 +13,4 @@ player_sprite = [pygame.image.load("Colored_character.png"),
 #animation
 class Animation:
     def __init__(self):
-        pass
+        pass 

@@ -16,8 +16,9 @@ player = Animation()
 
 
 #Map sprites
-Third_floor = pygame.image.load("Third_floor.png")
-Second_Floor = pygame.image.load("2nd_Floor.png")
+Top_floor = pygame.image.load("Third_floor.png")
+Middle_Floor = pygame.image.load("2nd_Floor.png")
+Bottom_floor = pygame.image.load("1st_Floor.png")
 
 
 
