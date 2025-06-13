@@ -10,7 +10,7 @@ pygame.init()
 
 
 #Character items
-player = Animation()
+#player = Animation()
 
 
 
