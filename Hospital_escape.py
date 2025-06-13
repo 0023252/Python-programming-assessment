@@ -1,7 +1,6 @@
 import pygame
 import sys
 from game_settings import *
-from game_settings import Animation
 
 
 #specifications
@@ -41,7 +40,7 @@ while run:
             run = False 
     
     #test/try
-    screen.blit(Third_floor,(0,0))
+    screen.blit(Top_floor,(0,0))
    
           
 
