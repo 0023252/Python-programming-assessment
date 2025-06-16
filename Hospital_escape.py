@@ -1,10 +1,10 @@
-import pygame
+import pygame 
 import sys
 from game_settings import *
 
 
 #specifications
-screen = pygame.display.set_mode((700, 500))
+screen = pygame.display.set_mode((1000, 500))
 clock = pygame.time.Clock()
 pygame.init()
 
