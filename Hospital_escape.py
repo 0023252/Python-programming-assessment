@@ -9,27 +9,6 @@ clock = pygame.time.Clock()
 pygame.init()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #levels
 main_menu = True 
 tutorial = False
@@ -46,7 +25,7 @@ while run:
             run = False 
     
     #test/try
-    screen.blit(Top_Floor,(0,0))
+    screen.blit(Top_floor,(0,0))
    
           
 
